@@ -34,8 +34,6 @@ public class TestReflect {
 			int age = fieldAge.getInt(instance);
 			System.out.println("get field<" + name + ":" + age + ">");
 			
-			
-			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
